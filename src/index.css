@@ -1,0 +1,17 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.ant-tabs-nav-wrap{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+:where(.css-dev-only-do-not-override-2q8sxy).ant-tabs >.ant-tabs-nav, :where(.css-dev-only-do-not-override-2q8sxy).ant-tabs >div>.ant-tabs-nav {
+    background-color: #0068FF;
+}
+
