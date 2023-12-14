@@ -3,37 +3,37 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-        <div className='bg-white px-[306px] py-[60px]'>
-            <p className='text-[50px] text-[#13305A] font-medium'>About Us</p>
-            <p className='text-[17px] text-[#878787]'>Welcome to Shipfinex FZCO, a pioneering force in transforming the shipping industry through our state-of-the-art Software as a Service (SaaS) platform, meticulously engineered on cutting-edge blockchain technology.
-            At Shipfinex, we specialize in offering Distributed Ledger Technology as a Service (DLTaaS), providing organizations with the essential infrastructure and connectivity services required to digitize complex multi-party workflows.
-            DLT, or distributed ledger technology, operates on a decentralized system where multiple nodes collaboratively store, validate, and update the ledger simultaneously. This approach eliminates the need for a central authority, minimizing the risk of a single point of failure. The result is a transparent, accountable, and highly secure record-keeping system that enhances data and transaction visibility.
-            Our DLTaaS platform enables organizations to streamline their processes by removing intermediaries and automating transactions through smart contracts. This not only reduces costs but also significantly increases operational efficiency. The benefits of our revolutionary platform extend beyond cost savings, offering improved security, transparency, and overall operational efficiency.
-            As a DLT as a Service provider, Shipfinex goes beyond offering mere infrastructure; we provide a comprehensive suite of services, including platform support, ensuring that organizations can rapidly innovate, accelerate development, and capitalize on opportunities without the burden of substantial startup and operational costs.
+        <div className='bg-white px-[306px] py-[60px] max-sm:px-[20px] max-sm:py-[28px]'>
+            <p className='text-[50px] text-[#13305A] font-medium 3xl:text-[72px]'>About Us</p>
+            <p className='text-[17px] text-[#878787] 3xl:text-[32px] text-justify'>Welcome to Shipfinex FZCO, a pioneering force in transforming the shipping industry through our state-of-the-art Software as a Service (SaaS) platform, meticulously engineered on cutting-edge blockchain technology.<br/>
+            At Shipfinex, we specialize in offering Distributed Ledger Technology as a Service (DLTaaS), providing organizations with the essential infrastructure and connectivity services required to digitize complex multi-party workflows.<br/>
+            DLT, or distributed ledger technology, operates on a decentralized system where multiple nodes collaboratively store, validate, and update the ledger simultaneously. This approach eliminates the need for a central authority, minimizing the risk of a single point of failure. The result is a transparent, accountable, and highly secure record-keeping system that enhances data and transaction visibility.<br/>
+            Our DLTaaS platform enables organizations to streamline their processes by removing intermediaries and automating transactions through smart contracts. This not only reduces costs but also significantly increases operational efficiency. The benefits of our revolutionary platform extend beyond cost savings, offering improved security, transparency, and overall operational efficiency.<br/>
+            As a DLT as a Service provider, Shipfinex goes beyond offering mere infrastructure; we provide a comprehensive suite of services, including platform support, ensuring that organizations can rapidly innovate, accelerate development, and capitalize on opportunities without the burden of substantial startup and operational costs.<br/>
             Embrace Shipfinex to unlock a new era of possibilities where your organization can experience heightened security, unparalleled transparency, and unmatched efficiency in navigating the complexities of the shipping industry. Join us in reshaping the future of maritime logistics with our innovative DLTaaS platform.
             </p>
         </div>
 
-        <div className='bg-[#F2F4F7] px-[306px] py-[60px]'>
-            <p className='text-[50px] text-[#13305A]'>Vision</p>
-            <p className='text-[17px] text-[#878787]'>
+        <div className='bg-[#F2F4F7] px-[306px] py-[60px] max-sm:px-[20px] max-sm:py-[28px]'>
+            <p className='text-[50px] text-[#13305A] 3xl:text-[72px]'>Vision</p>
+            <p className='text-[17px] text-[#878787] 3xl:text-[32px] text-justify'>
              At Shipfinex, our vision is to be the foremost provider of blockchain-as-a-service solutions for the shipping industry, driving innovation and efficiency through cutting-edge technology. We envision a future where every aspect of maritime operations is seamlessly integrated, secure, and transparent, empowering ship owners and industry stakeholders to unlock their full potential.
             </p>
         </div>
 
-        <div className='bg-[#F2F4F7] px-[306px] py-[60px]'>
-            <p className='text-[50px] text-[#13305A]'>Mission:</p>
-            <p className='text-[17px] text-[#878787]'>
+        <div className='bg-[#F2F4F7] px-[306px] py-[60px] max-sm:px-[20px] max-sm:py-[28px]'>
+            <p className='text-[50px] text-[#13305A] 3xl:text-[72px]'>Mission:</p>
+            <p className='text-[17px] text-[#878787] 3xl:text-[32px] text-justify'>
              Our mission is to deliver comprehensive and adaptable blockchain solutions tailored for the shipping industry's B2B needs. We aim to simplify and streamline complex processes, fostering collaboration and trust among industry players. By providing the tools for ship owners to develop their own industry-specific use cases, we empower them to thrive in a rapidly evolving landscape.
              </p>
         </div>
 
-        <div className='bg-white px-[306px] py-[60px]'>
-            <p className='text-[50px] text-[#13305A]'>Our Expertise:</p>
+        <div className='bg-white px-[306px] py-[60px] max-sm:px-[20px] max-sm:py-[28px]'>
+            <p className='text-[50px] text-[#13305A] 3xl:text-[72px]'>Our Expertise:</p>
 
-            <div className='text-[17px] text-[#878787]'>
+            <div className='text-[17px] text-[#878787] 3xl:text-[32px]'>
 
-              <ul class="list-disc list-outside">
+              <ul class="list-disc list-outside text-justify max-sm:px-[20px]">
               <li>
                 Blockchain Platform Development: At Shipfinex, we lead the way in crafting and maintaining a specialized blockchain platform tailored to the unique demands of the shipping industry. This platform forms the sturdy foundation for an array of applications and services that drive efficiency and transparency.
                 <br/><br/>What we provide is a Blockchain as a Service (BaaS) that refers to third-party cloud-based infrastructure and management for companies building and operating blockchain applications. BaaS allows customers to leverage cloud-based solutions to build, host, and operate their own blockchain apps and related functions on the blockchain, while the cloud-based service provider keeps the infrastructure agile and operational. This service simplifies blockchain development, saves costs of operations and maintenance, and facilitates business development.
@@ -58,8 +58,8 @@ const About = () => {
            </div>
         </div>
 
-        <div className='bg-[#0068FF] px-[60px] py-[50px]'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="177" height="40" viewBox="0 0 177 40" fill="none">
+        <div className='bg-[#0068FF] px-[60px] py-[50px] max-sm:px-[20px] max-sm:py-[28px]'>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177 40" fill="none" className="h-[12%] w-[20%] 2xl:w-[15%] max-md:w-[35%] max-sm:w-[34%]">
           <path d="M5.16597 34.4319C4.76374 33.7103 5.03189 32.8005 5.75749 32.4084L21.3815 23.8672C22.9746 23.0044 23.9289 21.4123 23.9289 19.6084C23.9289 17.8044 22.9825 16.2201 21.3893 15.3574L5.74171 6.69067C5.01611 6.29067 4.75585 5.38087 5.15808 4.6593C5.56032 3.93773 6.4752 3.67891 7.20079 4.07891L22.8247 12.7299C25.3801 14.1182 26.9181 16.6829 26.9181 19.5927C26.9181 22.5025 25.3801 25.075 22.8169 26.4633L7.20079 35.0044C6.4752 35.4044 5.56032 35.1378 5.16597 34.4162V34.4319Z" fill="white"/>
           <path d="M11.9645 38.1489C11.4598 38.1489 10.9708 37.898 10.6869 37.4352C10.2531 36.7293 10.474 35.8117 11.1759 35.3803L25.7036 26.5019C28.1328 25.0195 29.584 22.4391 29.584 19.5999C29.584 16.7607 28.1328 14.1882 25.7036 12.698L11.1759 3.82739C10.466 3.39601 10.2531 2.47837 10.6869 1.77248C11.1206 1.0666 12.0435 0.854838 12.7533 1.28621L27.2809 10.1646C30.6092 12.196 32.5889 15.7254 32.5889 19.6078C32.5889 23.4901 30.6013 27.0195 27.2809 29.0509L12.7533 37.9293C12.5088 38.0784 12.2406 38.1489 11.9725 38.1489H11.9645Z" fill="white"/>
           <path d="M37.2892 19.6078C37.2892 30.4392 28.4637 39.2157 17.5718 39.2157C17.2879 39.2157 17.0119 39.2157 16.728 39.2L27.6592 32.5255C32.2021 29.749 34.9152 24.9255 34.9152 19.6157C34.9152 14.3059 32.1942 9.4902 27.6356 6.72157L16.6333 0.0235294C16.9488 0.00784314 17.2643 0 17.5798 0C28.4715 0 37.297 8.77647 37.297 19.6078H37.2892Z" fill="white"/>
@@ -74,7 +74,7 @@ const About = () => {
           <path d="M163.071 19.4197L166.714 13.451H169.995L164.617 21.5295L170.161 29.7961H166.912L163.11 23.6785L159.309 29.7961H156.043L161.587 21.5295L156.209 13.451H159.458L163.055 19.4197H163.071Z" fill="white"/>
         </svg>
 
-        <div className='flex justify-between items-center text-white mt-14'>
+        <div className='flex 3xl:text-[20px] justify-between items-center text-white mt-14 max-sm:flex-col max-sm:items-start max-sm:gap-[28px]'>
             <p>Shipfinex © [2023]. All Rights Reserved.</p>
 
             <p>Privacy Policy | Terms of Service | Legal Notice</p>

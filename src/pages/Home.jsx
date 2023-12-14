@@ -1,40 +1,42 @@
 import React from 'react'
 import { pic1, pic2, pic3, pic4 } from '../assets'
 
-const Home = () => {
+const Home = ({refSec, refSec2}) => {
   return (
-      <div className=' -mt-[40px]'>
-        <div className='flex bg-[#0068FF] h-screen w-full items-center'>
-          <div className='text-[70px] text-white w-3/6 flex flex-wrap h-fit ml-10'>
-            Navigating <p className='text-[#FFBE2E] px-4'>Maritime</p> Excellence Through <p className='pr-4 text-[#FFBE2E]'>Blockchain</p> Innovation
-          </div>
-          <div className='w-3/6 h-full flex items-end'>
-            <img src={pic1} alt="" className='bg-blend-normal mb-20'/>
-          </div>
+      <div className=''>
+        <div className='flex bg-[#0068FF] h-screen items-center justify-between pl-[60px] max-sm:flex-col max-sm:h-full max-sm:pl-[20px]'>
+          <p className='text-[70px] text-white flex gap-x-4 flex-wrap flex-1 max-sm:text-[50px] max-sm:mt-[28px]'>
+            <p>Navigating</p>
+            <p className='text-[#FFBE2E]'>Maritime</p>
+            <p>Excellence Through</p> 
+            <p className=' text-[#FFBE2E]'>Blockchain</p> 
+            <p>Innovation</p>
+          </p>
+            <img src={pic1} alt="" className='w-[50%] max-sm:w-full max-sm:mb-6'/>
         </div>
 
-        <div className='h-[1111px] px-6 bg-[#FFFFFF]'>
+        <div className='h- px-[60px] py-[50px] bg-[#FFFFFF] max-sm:py-[28px] max-sm:px-[20px]' ref={refSec}>
           <p className='text-[50px] text-[#13305A]'>Offerings (Unlocking Value for You)</p>
-          <div className='flex gap-4 w-full h-[454px]'>
-            <div className='w-1/3 h-full flex flex-col justify-between'>
+          <div className='flex gap-4 w-full max-sm:flex-col'>
+            <div className='w-1/3 flex flex-col justify-between p-[20px] max-sm:w-full'>
               <div>
               <p className='text-[100px] text-[#0064FF0D]'>A</p>
-              <p className='text-[28px] text-[#13305A]'>Subscribe and Thrive:</p>
-              <p className='text-[17px] text-[#13305A]'>Embark on a journey of innovation by subscribing to our SaaS platform on a flexible monthly or annual basis. Gain access to a constantly evolving suite of blockchain-based services, tools, and updates tailored to empower your maritime operations.</p>
+              <p className='text-[28px] text-[#13305A] 3xl:text-[36px]'>Subscribe and Thrive:</p>
+              <p className='text-[17px] text-[#13305A] 3xl:text-[26px]'>Embark on a journey of innovation by subscribing to our SaaS platform on a flexible monthly or annual basis. Gain access to a constantly evolving suite of blockchain-based services, tools, and updates tailored to empower your maritime operations.</p>
               </div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none" className=' min-h-[50px] my-4'>
                 <path d="M44 36L43.1739 39.7083C43.0048 40.465 42.3542 41 41.6038 41H9.39624C8.6458 41 7.99521 40.465 7.82612 39.7083L7 36H44Z" fill="#0064FF"/>
                 <path d="M47.9595 18.9609L44.7051 33H6.2954L3.04102 18.9609C2.89798 18.3417 3.13583 17.6953 3.6485 17.3162C4.16277 16.937 4.85222 16.897 5.40506 17.2122L15.3514 22.871L24.1615 9.71503C24.4492 9.28626 24.9249 9.02068 25.4408 9.00148C25.9615 8.97908 26.4517 9.21266 26.7683 9.61904L37.1003 22.8438L45.5006 17.2698C46.0487 16.9082 46.7638 16.9114 47.3054 17.2842C47.8486 17.6569 48.1058 18.3225 47.9595 18.9609Z" fill="#0064FF"/>
               </svg>
             </div>
 
-            <div className='w-1/3 h-full flex flex-col justify-between'>
+            <div className='w-1/3 flex flex-col justify-between p-[20px] max-sm:w-full'>
               <div>
               <p className='text-[100px] text-[#0064FF0D]'>B</p>
-              <p className='text-[28px] text-[#13305A]'>Strategic Support & Optimization:</p>
-              <p className='text-[17px] text-[#13305A]'>Maximize the value of our professional services, including consulting, training, and custom development. Let us guide you through the integration of our blockchain solutions, optimizing your operations for peak efficiency.</p>
+              <p className='text-[28px] text-[#13305A] 3xl:text-[36px]'>Strategic Support & Optimization:</p>
+              <p className='text-[17px] text-[#13305A] 3xl:text-[26px]'>Maximize the value of our professional services, including consulting, training, and custom development. Let us guide you through the integration of our blockchain solutions, optimizing your operations for peak efficiency.</p>
               </div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none" >
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none" className=' min-h-[50px] my-4'>
                 <g clip-path="url(#clip0_165_10356)">
                   <path d="M49.4732 34.2571L44.7357 29.5193L34.9353 39.3196C33.1859 41.0691 30.9902 42.2096 28.6052 42.6365L34.8495 48.8808C35.4213 49.453 36.3491 49.453 36.9209 48.8808L49.4732 36.3289C50.0454 35.7567 50.0454 34.829 49.4732 34.2571Z" fill="#0064FF"/>
                   <path d="M42.8059 27.306C44.4573 25.655 44.4577 22.9683 42.8082 21.3161C42.8063 21.3142 42.8044 21.3123 42.8025 21.3104C42.3943 20.9026 41.9174 20.5883 41.3983 20.3781C41.8484 19.2394 41.9434 17.3137 40.4522 15.8222C40.4484 15.8184 40.4446 15.8142 40.4404 15.8104C40.0341 15.4068 39.5603 15.0955 39.0446 14.8864C39.4947 13.7485 39.5901 11.8225 38.0997 10.3317C38.0985 10.3305 38.0978 10.3298 38.097 10.329C37.6885 9.92046 37.2113 9.60537 36.6913 9.39518C37.1414 8.25649 37.2364 6.33045 35.7453 4.8389C35.7449 4.8389 35.7449 4.83852 35.7445 4.83852C35.7441 4.83814 35.7437 4.83776 35.7434 4.83738C34.0912 3.18523 31.4034 3.18523 29.7512 4.83738L26.9737 7.61448L28.394 9.03469C30.7606 11.4013 30.7606 15.2519 28.3943 17.6185C27.5978 18.4147 26.6194 18.9617 25.5528 19.2222C25.2976 20.2621 24.765 21.2478 23.9536 22.0588C23.1583 22.8542 22.1813 23.4009 21.1159 23.6618C20.8553 24.7268 20.3083 25.7042 19.5133 26.4991C18.718 27.2945 17.741 27.8412 16.6756 28.1021C16.415 29.1672 15.868 30.1445 15.073 30.9398C13.9267 32.0858 12.4024 32.7175 10.7811 32.7175C9.15986 32.7175 7.6355 32.0862 6.48919 30.9395L5.06897 29.5192L0.331497 34.2571C-0.240707 34.8293 -0.240707 35.7567 0.331497 36.3289L12.8834 48.8808C13.4556 49.453 14.3829 49.4526 14.9551 48.8808L23.9403 39.896H26.4717C28.8864 39.896 31.1566 38.9553 32.864 37.2482L42.8059 27.306Z" fill="#0064FF"/>
@@ -47,15 +49,15 @@ const Home = () => {
                   </clipPath>
                 </defs>
               </svg>
-            </div>
+              </div>
 
-            <div  className='w-1/3 h-full flex flex-col justify-between'>
+            <div className='w-1/3 flex flex-col justify-between p-[20px] max-sm:w-full' >
               <div>
               <p className='text-[100px] text-[#0064FF0D]'>C</p>
-              <p className='text-[28px] text-[#13305A]'>Efficient Transactions, Your Way:</p>
-              <p className='text-[17px] text-[#13305A]'>Experience transparent transactions with our straightforward fee structures covering the use of smart contracts and other blockchain-based functionalities. This ensures that every transaction, whether it involves third-party verification or additional computational resources, is seamless and cost-effective.</p>
+              <p className='text-[28px] text-[#13305A] 3xl:text-[36px]'>Efficient Transactions, Your Way:</p>
+              <p className='text-[17px] text-[#13305A] 3xl:text-[26px]'>Experience transparent transactions with our straightforward fee structures covering the use of smart contracts and other blockchain-based functionalities. This ensures that every transaction, whether it involves third-party verification or additional computational resources, is seamless and cost-effective.</p>
               </div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="51" height="50" viewBox="0 0 51 50" fill="none" className=''>
+              <svg xmlns="http://www.w3.org/2000/svg" width="51" height="50" viewBox="0 0 51 50" fill="none" className=' min-h-[50px] my-4'>
                 <path d="M27.9598 6.51573H14.8032V3.49538L3.61841 10.5429L14.8032 17.5904V14.5701H28.8872L36.0141 21.4993V14.5701C36.0141 10.1217 32.408 6.51573 27.9598 6.51573Z" fill="#0064FF"/>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M37.9432 26.0651V14.57C37.9432 9.05632 33.4734 4.58669 27.9598 4.58669H16.7322V-8.58307e-05L0 10.5428L16.7322 21.0858V16.499H28.104L37.9432 26.0651ZM12.8743 14.0949L7.2369 10.5428L12.8743 6.99074V8.44466H27.9598C31.3427 8.44466 34.0852 11.1871 34.0852 14.57V16.9334L29.6704 12.641H12.8743V14.0949Z" fill="#0064FF"/>
                 <path d="M22.1537 43.4842H35.3103V46.5045L46.4951 39.457L35.3103 32.4095V35.4298H21.2263L14.0994 28.5006V35.4298C14.0994 39.8782 17.7055 43.4842 22.1537 43.4842Z" fill="#0064FF"/>
@@ -67,26 +69,26 @@ const Home = () => {
             </div>
           </div>
 
-          <div className='flex gap-4 w-full h-[454px] mt-10'>
-            <div className='w-1/3 h-full flex flex-col justify-between'>
+          <div className='flex gap-4 w-full mt-10 max-sm:flex-col'>
+            <div className='w-1/3 flex flex-col justify-between p-[20px] max-sm:w-full'>
               <div>
               <p className='text-[100px] text-[#0064FF0D]'>D</p>
-              <p className='text-[28px] text-[#13305A]'>Data-Driven Decisions:</p>
-              <p className='text-[17px] text-[#13305A]'>Empower your decision-making with advanced analytics and reporting features. Gain deeper insights into your operations, enabling you to make informed, data-driven decisions that shape the future of your business.</p>
+              <p className='text-[28px] text-[#13305A] 3xl:text-[36px]'>Data-Driven Decisions:</p>
+              <p className='text-[17px] text-[#13305A] 3xl:text-[26px]'>Empower your decision-making with advanced analytics and reporting features. Gain deeper insights into your operations, enabling you to make informed, data-driven decisions that shape the future of your business.</p>
               </div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none" className=' min-h-[50px] my-4'>
                 <path d="M31.0156 16.7188C29.5079 16.7188 28.2812 15.4921 28.2812 13.9844V5H14.2969C11.9276 5 10 6.92758 10 9.29688V40.7031C10 43.0724 11.9276 45 14.2969 45H36.1719C38.5412 45 40.4687 43.0724 40.4687 40.7031V16.7188H31.0156ZM16.4062 33.125H22.0875C22.7347 33.125 23.2594 33.6497 23.2594 34.2969C23.2594 34.9441 22.7347 35.4688 22.0875 35.4688H16.4062C15.7591 35.4688 15.2344 34.9441 15.2344 34.2969C15.2344 33.6497 15.7591 33.125 16.4062 33.125ZM15.2344 28.0469C15.2344 27.3997 15.7591 26.875 16.4062 26.875H33.5937C34.2409 26.875 34.7656 27.3997 34.7656 28.0469C34.7656 28.6941 34.2409 29.2188 33.5937 29.2188H16.4062C15.7591 29.2188 15.2344 28.6941 15.2344 28.0469ZM33.5937 20.625C34.2409 20.625 34.7656 21.1497 34.7656 21.7969C34.7656 22.4441 34.2409 22.9688 33.5937 22.9688H16.4062C15.7591 22.9688 15.2344 22.4441 15.2344 21.7969C15.2344 21.1497 15.7591 20.625 16.4062 20.625H33.5937Z" fill="#0068FF"/>
                 <path d="M30.625 13.9844C30.625 14.1998 30.8002 14.3751 31.0156 14.3751H39.9464C39.732 13.9793 39.4563 13.6158 39.1249 13.3023L31.5919 6.17554C31.2995 5.89897 30.9739 5.66827 30.6251 5.48608V13.9844H30.625Z" fill="#0068FF"/>
               </svg>
             </div>
 
-            <div className='flex-1 h-full flex flex-col justify-between'>
+            <div className='flex-1  flex flex-col justify-between p-[20px]'>
               <div>
-              <p className='text-[100px] text-[#0064FF0D]'>E</p>
-              <p className='text-[28px] text-[#13305A]'>Continuous Partnership: Support and Maintenance:</p>
-              <p className='text-[17px] text-[#13305A]'>Empower your decision-making with advanced analytics and reporting features. Gain deeper insights into your operations, enabling you to make informed, data-driven decisions that shape the future of your business.<br/>At Shipfinex, our commitment is to unlock tangible value for you. Our revenue streams are not just about transactions; they are a gateway to empowering your operations, fostering innovation, and ensuring your success in the maritime landscape. Join us on a journey where your needs drive our commitment to excellence.</p>
+              <p className='text-[100px] text-[#0064FF0D] max-sm:w-full'>E</p>
+              <p className='text-[28px] text-[#13305A] 3xl:text-[36px]'>Continuous Partnership: Support and Maintenance:</p>
+              <p className='text-[17px] text-[#13305A] 3xl:text-[26px]'>Empower your decision-making with advanced analytics and reporting features. Gain deeper insights into your operations, enabling you to make informed, data-driven decisions that shape the future of your business.<br/>At Shipfinex, our commitment is to unlock tangible value for you. Our revenue streams are not just about transactions; they are a gateway to empowering your operations, fostering innovation, and ensuring your success in the maritime landscape. Join us on a journey where your needs drive our commitment to excellence.</p>
               </div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none" className=' min-h-[50px] my-4'>
                 <path d="M5.24003 11.0786C5.45332 10.1908 6.55925 9.87589 7.20812 10.5248L11.5253 14.8443H14.8419V11.5277L10.5304 7.21853C9.88462 6.57271 10.1959 5.46795 11.0792 5.25161C13.118 4.75236 16.426 4.82689 18.9836 7.38362C21.2212 9.62126 21.94 12.9613 20.8884 15.9185L34.0814 29.1116C37.0386 28.0599 40.3787 28.7787 42.6163 31.0164C45.1087 33.5088 45.2556 36.851 44.7576 38.9238C44.5443 39.8115 43.4384 40.1265 42.7895 39.4775L38.4724 35.158H35.1558V38.4747L39.4661 42.7827C40.1121 43.4286 39.8005 44.5336 38.9169 44.7497C36.8791 45.248 33.5722 45.1759 31.0142 42.6187C28.7765 40.381 28.0577 37.041 29.1094 34.0838L15.9163 20.8907C12.9591 21.9424 9.61984 21.2236 7.38141 18.9859C4.88891 16.4936 4.7421 13.1513 5.24003 11.0786Z" fill="#0064FF"/>
                 <path d="M24.9988 33.2885L15.0005 43.286C12.9996 45.2869 9.89937 45.5361 7.62579 44.0313L16.6584 34.9995C17.1155 34.5417 17.1155 33.7994 16.6584 33.3416C16.2006 32.8845 15.4583 32.8845 15.0005 33.3416L5.96865 42.3742C4.46387 40.1006 4.71232 37.0004 6.71401 34.9995L16.7115 25.0012L24.9988 33.2885Z" fill="#0064FF"/>
                 <path d="M44.8767 8.35328L41.5617 14.9826C41.3898 15.3272 41.0601 15.5647 40.6788 15.6194L35.2652 16.3921L29.9711 21.6862L28.314 20.029L33.6073 14.7357L34.3808 9.32131C34.4354 8.94004 34.673 8.61033 35.0175 8.43845L41.6468 5.12339C42.0977 4.89838 42.643 4.98666 42.9993 5.34293L44.6572 7.00085C45.0135 7.35713 45.1018 7.90247 44.8767 8.35328Z" fill="#0064FF"/>
@@ -97,36 +99,36 @@ const Home = () => {
 
         </div>
 
-        <div className='bg-[#F2F4F7] pt-[100px] px-6 pb-[60px]'>
-          <p className='text-[50px] text-[#13305A] w-full text-center'>Why ShipFinex?</p>
-          <div className='flex items-center'>
+        <div className='bg-[#F2F4F7] pt-[100px] px-[60px] pb-[60px] max-sm:py-[28px] max-sm:px-[20px] ' ref={refSec2}>
+          <p className='text-[50px] text-[#13305A] w-full text-center 3xl:text-[60px] md:mb-[100px]'>Why ShipFinex?</p>
+          <div className='flex items-center justify-between max-sm:flex-col max-sm:py-[28px]'>
             <div>
-              <p className='text-[#13305A] text-[28px]'>Innovation Beyond Boundaries:</p>
-              <p className='text-[#878787] text-[17px]'>We're not just pushing boundaries; we're redefining them. ShipFinex is your compass to navigate the future of maritime operations with unmatched innovation.</p>
+              <p className='text-[#13305A] text-[28px] 3xl:text-[52px] '>Innovation Beyond Boundaries:</p>
+              <p className='text-[#878787] text-[17px] 3xl:text-[28px] '>We're not just pushing boundaries; we're redefining them. ShipFinex is your compass to navigate the future of maritime operations with unmatched innovation.</p>
             </div>
-            <img src={pic2} alt="" />
+            <img src={pic2} alt="" className='w-[50%] max-sm:w-full'/>
           </div>
 
-          <div className='flex items-center'>
-          <img src={pic3} alt="" />
+          <div className='flex items-center justify-between max-sm:flex-col-reverse max-sm:pb-[28px]'>
+          <img src={pic3} alt=""  className='w-[50%] max-sm:w-full'/>
             <div>
-              <p className='text-[#13305A] text-[28px]'>Client-Centric Approach:</p>
-              <p className='text-[#878787] text-[17px]'>Your success is our success. ShipFinex is built on a foundation of understanding your unique needs and delivering tailored solutions that empower your journey.</p>
+              <p className='text-[#13305A] text-[28px] 3xl:text-[52px]'>Client-Centric Approach:</p>
+              <p className='text-[#878787] text-[17px] 3xl:text-[28px]'>Your success is our success. ShipFinex is built on a foundation of understanding your unique needs and delivering tailored solutions that empower your journey.</p>
             </div>
           </div>
 
-          <div className='flex items-center'>
+          <div className='flex items-center justify-between max-sm:flex-col'>
             <div>
-              <p className='text-[#13305A] text-[28px]'>Trailblazing Technology:</p>
-              <p className='text-[#878787] text-[17px]'>Harness the power of blockchain technology and stay ahead of the curve. ShipFinex ensures you have the technological edge to navigate the ever-evolving seas of the shipping industry.</p>
+              <p className='text-[#13305A] text-[28px] 3xl:text-[52px]'>Trailblazing Technology:</p>
+              <p className='text-[#878787] text-[17px] 3xl:text-[28px]'>Harness the power of blockchain technology and stay ahead of the curve. ShipFinex ensures you have the technological edge to navigate the ever-evolving seas of the shipping industry.</p>
             </div>
-            <img src={pic4} alt="" />
+            <img src={pic4} alt=""  className='w-[50%] max-sm:w-full mix-blend-darken'/>
           </div>
         </div>
 
-        <div className='bg-[#0068FF] p-6 py-8'>
-          <div className='flex items-start'>
-          <svg xmlns="http://www.w3.org/2000/svg" width="177" height="41" viewBox="0 0 177  41" fill="none" className='w-2/6 mt-2'>
+        <div className='bg-[#0068FF] px-[60px] py-[50px] max-sm:py-[28px] max-sm:px-[20px]'>
+          <div className='flex items-start justify-between max-sm:flex-col'>
+          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 177  41" fill="none" className='mt-3 w-[20%] 2xl:w-[15%] max-md:w-[35%] max-sm:w-[34%]'>
             <path d="M5.16597 34.8379C4.76374 34.1163 5.03189 33.2065 5.75749 32.8144L21.3815 24.2732C22.9746 23.4104 23.9289 21.8183 23.9289 20.0144C23.9289 18.2104 22.9825 16.6261 21.3893 15.7634L5.74171 7.09668C5.01611 6.69668 4.75585 5.78687 5.15808 5.0653C5.56032 4.34374 6.4752 4.08491 7.20079 4.48491L22.8247 13.1359C25.3801 14.5242 26.9181 17.0889 26.9181 19.9987C26.9181 22.9085 25.3801 25.481 22.8169 26.8693L7.20079 35.4104C6.4752 35.8104 5.56032 35.5438 5.16597 34.8222V34.8379Z" fill="white"/>
             <path d="M11.9645 38.555C11.4598 38.555 10.9708 38.304 10.6869 37.8412C10.2531 37.1353 10.474 36.2177 11.1759 35.7863L25.7036 26.9079C28.1328 25.4255 29.584 22.8451 29.584 20.0059C29.584 17.1667 28.1328 14.5942 25.7036 13.104L11.1759 4.23339C10.466 3.80202 10.2531 2.88437 10.6869 2.17849C11.1206 1.47261 12.0435 1.26084 12.7533 1.69222L27.2809 10.5706C30.6092 12.602 32.5889 16.1314 32.5889 20.0138C32.5889 23.8961 30.6013 27.4255 27.2809 29.4569L12.7533 38.3353C12.5088 38.4844 12.2406 38.555 11.9725 38.555H11.9645Z" fill="white"/>
             <path d="M37.2892 20.0138C37.2892 30.8452 28.4637 39.6217 17.5718 39.6217C17.2879 39.6217 17.0119 39.6217 16.728 39.606L27.6592 32.9315C32.2021 30.155 34.9152 25.3315 34.9152 20.0217C34.9152 14.7119 32.1942 9.8962 27.6356 7.12757L16.6333 0.429535C16.9488 0.413849 17.2643 0.406006 17.5798 0.406006C28.4715 0.406006 37.297 9.18248 37.297 20.0138H37.2892Z" fill="white"/>
@@ -141,15 +143,15 @@ const Home = () => {
             <path d="M163.071 19.8256L166.714 13.8569H169.995L164.617 21.9354L170.161 30.202H166.912L163.11 24.0844L159.309 30.202H156.043L161.587 21.9354L156.209 13.8569H159.458L163.055 19.8256H163.071Z" fill="white"/>
           </svg>
 
-          <p className='text-[50px] ml-6 text-white'>Join us at ShipFinex, where excellence meets innovation, and together, we'll shape the future of maritime operations. Set sail with confidence!</p>
+          <p className='text-[50px] ml-10 text-white w-[80%] max-sm:w-full max-sm:m-0 max-sm:text-[34px] max-sm:py-[28px]'>Join us at ShipFinex, where excellence meets innovation, and together, we'll shape the future of maritime operations. Set sail with confidence!</p>
           </div>
-          <div className='flex justify-between items-center text-white mt-14'>
+          <div className='flex 3xl:text-[20px] justify-between items-center text-white mt-14 max-sm:flex-col max-sm:items-start max-sm:gap-[28px]'>
             <p>Shipfinex © [2023]. All Rights Reserved.</p>
 
             <p>Privacy Policy | Terms of Service | Legal Notice</p>
           </div>
         </div>
-      </div>
+    </div>
   )
 }
 
