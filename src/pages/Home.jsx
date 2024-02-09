@@ -108,7 +108,9 @@ const Home = ({refSec, refSec2}) => {
             </div>
             <img src={pic2} alt="" className='w-[50%] max-sm:w-full'/>
           </div>
-
+          <br />
+          <hr />
+          <br />
           <div className='flex items-center justify-between max-sm:flex-col-reverse max-sm:pb-[28px]'>
           <img src={pic3} alt=""  className='w-[50%] max-sm:w-full'/>
             <div>
@@ -116,7 +118,9 @@ const Home = ({refSec, refSec2}) => {
               <p className='text-[#878787] text-[17px] 3xl:text-[28px]'>Your success is our success. ShipFinex is built on a foundation of understanding your unique needs and delivering tailored solutions that empower your journey.</p>
             </div>
           </div>
-
+          <br />
+          <hr />
+          <br />
           <div className='flex items-center justify-between max-sm:flex-col'>
             <div>
               <p className='text-[#13305A] text-[28px] 3xl:text-[52px]'>Trailblazing Technology:</p>
